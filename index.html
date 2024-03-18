@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>zain ul abdin (116842)</title>
+</head>
+<body>
+    <table class="addstudent">
+        <tr>
+            <td><input type="text" id="RollNo" placeholder="Roll No:"></td>
+            <td><input type="text" id="fname" placeholder="Your Name"></td>
+            <td><input type="text" id="fathName" placeholder="Father Name"></td>
+            <td><input type="number" id="age" placeholder="Age"></td>
+            <td><input type="text" id="city" placeholder="city"></td>
+            <td><button class="btn" onclick="addStudent()">Add Student</button></td>
+            <td><button class="btn" onclick="reload()">Reload</button></td>
+        </tr>
+    </table>
+    <h1>STUDENT'S DATA</h1>
+    <table id="mainData" >
+        <tr class="head">
+            <td><select name="" class="filter" id="rollNo">
+                <option value="Roll Numbers" selected disabled>Roll Numbers</option>
+            </select></td>
+                <td><select name="" class="filter" id="name">
+                    <option value="fname" selected disabled>Student Name</option>
+                    </select></td> 
+                    <td><select name="" id="FatherName" class="filter">
+                   <option value="FatherName" selected disabled>Father's Name</option>
+                </select></td> 
+            <td><select name="" class="filter" id="Age">
+                <option value="Age" selected disabled>Age</option>
+            </select></td>
+            <td><select name="" id="City" class="filter">
+                <option value="City" selected disabled>Cities</option>
+            </select></td>
+        </tr>
+        <table class="add" id="addData" border="">
+        </table>
+        
+        
+    </table>
+    <script src="app.js"></script>
+</body>
+</html>

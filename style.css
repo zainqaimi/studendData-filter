@@ -1,0 +1,56 @@
+.add{
+    border: none;
+    text-align: center;
+    margin: auto;
+}
+input{
+    margin: auto;
+    padding: auto;
+    width: 160px;
+    height: 20px;
+}
+.btn{
+    width: 100px;
+    height: 30px;
+    border-color: rgb(2, 167, 54) ;
+    border-radius: 10px;
+    background-color: rgb(2, 167, 54);
+    color: white;
+}
+.btn:hover{
+    background-color: rgb(5, 135, 46);
+
+}
+h1{
+    text-align: center;
+    margin-top: 20px;
+    text-decoration: underline;
+}
+table{
+    /* border: 1px solid black; */
+    margin: auto;
+    text-align: center;
+}
+.add td{
+    border: 1px solid black;
+    margin: auto;
+    width: 200px;
+    height: 50px;
+    text-align: center;
+}
+.head td{
+    width: 200px;
+    height: 50px;
+    text-align: center;
+    color: white;
+    background-color: rgb(2, 2, 119);
+    border: 1px solid black;
+
+}
+.filter{
+    width: 200px;
+    height: 50px;
+    text-align: center;
+    color: white;
+    background-color: rgb(2, 2, 119);
+}
